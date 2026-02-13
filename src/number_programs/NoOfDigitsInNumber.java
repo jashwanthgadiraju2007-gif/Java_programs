@@ -4,13 +4,14 @@ public class NoOfDigitsInNumber {
 
 	public static void Count(int n) {
 		// TODO Auto-generated method stub
+		int temp = n ;
 		int count = 0;
 		while(n > 0) {
 			n/=10 ;
 			count ++;
 			
 		}
-		System.out.println(count);
+		System.out.println("to no.of digits in  "+temp +" is " + count);
 			}
 	public static void main(String[] args) {
 		
