@@ -15,6 +15,7 @@ public class LargestDigit {
 			}
 	public static void main(String[] args) {
 		System.out.println(max(4756));
+		System.out.println(max(40056));
 		
 	}
 		}
