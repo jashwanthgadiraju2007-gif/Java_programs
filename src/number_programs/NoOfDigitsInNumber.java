@@ -18,7 +18,7 @@ public class NoOfDigitsInNumber {
 	    Count(600);
 		Count(7);
 		Count(5690);
-		Count(967600);
+		Count(96760);
 	}
 
 	}
