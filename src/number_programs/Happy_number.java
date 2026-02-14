@@ -16,11 +16,10 @@ public class Happy_number{
 			System.out.println(temp+" is a happy number");
 		}
 		System.out.println(temp+" is not a happy number");
-		
 	}
 public static void main(String[] args) {
 	code(81);
-	
+	code(11);
 	
 }
 }
