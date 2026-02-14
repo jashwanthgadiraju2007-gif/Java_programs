@@ -10,7 +10,7 @@ public class Palindrome {
 			num/=10;	
 		}
 		if (temp == sum) {
-			return true;
+			return true;//boolean
 		}
 		   return false;
 	}
