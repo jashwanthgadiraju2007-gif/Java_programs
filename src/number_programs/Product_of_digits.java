@@ -13,7 +13,7 @@ public class Product_of_digits {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println("product of digits is "+product(25));
+System.out.println("product of  the digits is "+product(25));
 	}
 
 }
