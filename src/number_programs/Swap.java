@@ -7,7 +7,7 @@ public class Swap {
 		a = a - b ;
 		System.out.println(" After swaping numbers: ");
 		System.out.println(a);
-		System.out.println(b);
+		System.out.println(b) ;
 		
 	}
 
