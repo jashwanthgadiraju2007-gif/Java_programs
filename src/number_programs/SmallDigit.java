@@ -6,7 +6,7 @@ public class SmallDigit {
 		while(num > 0) {
 			int rem = num % 10;
 			if(rem < small) {
-				small = rem;
+				small = rem ;
 			}
 			num/=10;			
 		 }
