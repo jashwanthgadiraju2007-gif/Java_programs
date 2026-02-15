@@ -9,7 +9,7 @@ public class SmallDigit {
 				small = rem;
 			}
 			num/=10;			
-		}
+		 }
 		System.out.println(small);
 	}
 
