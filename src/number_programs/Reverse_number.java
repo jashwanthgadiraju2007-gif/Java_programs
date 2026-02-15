@@ -7,7 +7,7 @@ public class Reverse_number {
 		while(num > 0) {           //490   , 49, 4
 			int rem = num % 10 ;  //0     ,  0 , 4
 			sum = sum * 10 + rem; // 0     , 9 , 94
-			num /= 10;            // 49    , 4 , 0
+			num /= 10;            // 49   , 4 , 0
 			
 		}
 		System.out.println("reverse of "+temp+"="+sum);
