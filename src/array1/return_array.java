@@ -1,5 +1,5 @@
 package array1;
-import java.util.Arrays;
+import java.util.Arrays ;
 
 public class return_array {
 	public static int[] rev(int ar1[]) {
@@ -17,11 +17,8 @@ public class return_array {
 		// TODO Auto-generated method stub
 		int ar1[]= {10,46,556,86,89};
 		
-		int[]ar2=rev(ar1);
-		for(int i =0;i< ar2.length;i++) {
 		
-		System.out.println(ar2[i]);
+		System.out.println(Arrays.toString(rev(ar1)));
 		}
-}
 }
 
