@@ -1,5 +1,4 @@
 package array1;
-import java.util.Arrays;
 
 public class Product_of_array {
 	public static void parray(int ar1[]) {
