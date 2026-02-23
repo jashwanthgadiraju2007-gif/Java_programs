@@ -12,7 +12,7 @@ public class Factorial_of_n {
 
 	        System.out.println("Factorial = " + fact);
 	    }
-	}
+}
 
 
 
