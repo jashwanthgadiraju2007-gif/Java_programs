@@ -1,7 +1,7 @@
 package array1;
 import java.util.Arrays ;
 
-public class return_array {
+public class reverse_array {
 	public static int[] rev(int ar1[]) {
 		int j=0;
 		int ar2 [] = new int [ar1.length];
