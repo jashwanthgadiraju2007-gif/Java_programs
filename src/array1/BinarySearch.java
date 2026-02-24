@@ -1,9 +1,9 @@
 package array1;
 
 public class BinarySearch {
-	public static int search(int a[],int target) {
-
-           int left = 0;
+	public static int search(int a[],int target) {//binary search
+//to find binary the array always should be in ascending order
+           int left = 0;         
            int right = a.length-1;
            while(left<=right) {
         	   int mid =(right+left)/2;
@@ -13,9 +13,11 @@ public class BinarySearch {
         	   }
         	   else if(target<a[mid]) {
         		   right = mid-1;
+        		 //here the right pointer will move to the mid-1
         		   }
         	   else {
         		   left = mid +1 ;
+        		   //if the target is greater then move left to mid+1
         	   }
         	   }
            }
