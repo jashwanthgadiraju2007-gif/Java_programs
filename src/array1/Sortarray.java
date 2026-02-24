@@ -15,11 +15,10 @@ public static void sort(int a[]) {
 //	for(int k= 0;k<a.length;k++) {
 //	System.out.println(a[k]);
 //	}
-	
 }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a[]= {8,4,3,5,6};
+		int a[]= {8,4,3,5,6,2,1};
 		sort(a);
 
 	}
