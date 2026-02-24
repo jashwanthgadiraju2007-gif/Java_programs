@@ -28,7 +28,8 @@ public class BinarySearch {
 		// TODO Auto-generated method stub
     int a[]= {5,8,21,34,56,59,60,78};
     int target = 78;
-    System.out.println(search(a,target));
+    int c = search(a,target);
+    System.out.println("Target\t"+target+" is at index\t"+c);
     
 	}
 
