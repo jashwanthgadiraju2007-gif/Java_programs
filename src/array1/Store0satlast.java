@@ -1,28 +1,25 @@
 package array1;
 
+import java.util.Arrays;
+
 public class Store0satlast {
 
 	public static int[] last(int a[]) {
-
-		    for(int j = 0; j < a.length; j++) {
-		        for(int i = 0; i < a.length - 1; i++) {
+		for(int i= 0 ;i<a.length;i++) {
+		        for(int j = i+1 ; j < a.length - 1; j++) {
 		          if(a[i] == 0) {
 		            int temp = a[i];
-		             a[i] = a[i+1];
-		             a[i+1] = temp;
+		             a[i] = a[j];
+		             a[j] = temp;
 		          }
 		        }
-		    }
+		}
 
 		return a;
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 int ar1[]= {2,0,3,0,0,2,1,6,0};
-int ar2[]=last(ar1);
-for(int i = 0;i<ar1.length;i++) {
-	System.out.println(ar2[i]);
+	System.out.println(Arrays.toString(last(ar1)));
 }
 	}
-
-}
