@@ -11,4 +11,4 @@ public class Rotation_of_string {
     	 System.out.println("false");
 	
 }
-}
+}//time complexity O(n)
